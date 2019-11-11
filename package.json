@@ -1,0 +1,24 @@
+{
+  "name": "rollup-plugin-gun-server",
+  "version": "1.0.0",
+  "description": "provides a local Gun db server for development",
+  "main": "index.js",
+  "module": "index.mjs",
+  "dependencies": {
+    "gun": "^0.2019.930"
+  },
+  "devDependencies": {
+    "rollup": "^1.26.5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "build-watch": "rollup -cw"
+  },
+  "keywords": [
+    "rollup",
+    "plugin",
+    "Gun"
+  ],
+  "author": "rob@hixfamily.org",
+  "license": "MIT"
+}
