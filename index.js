@@ -1,13 +1,13 @@
 'use strict';
 
 const http = require('http');
-const Gun = require('gun/gun');
+const Gun = require('gun');
 
 function gunServer(options = {}) {
   const params = { port: options.port || 4000 };
   const httpServer = http.createServer();
   httpServer.listen(params.port);
-  const gun = new Gun({ web: httpServer });
+  const gun = new Gun({ radisk: false, web: httpServer });
 
 
   return {
