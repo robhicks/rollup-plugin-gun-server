@@ -5,7 +5,7 @@
   "main": "index.js",
   "module": "index.mjs",
   "dependencies": {
-    "gun": "^0.2019.930"
+    "gun": "https://github.com/robhicks/gun.git"
   },
   "devDependencies": {
     "rollup": "^1.26.5"

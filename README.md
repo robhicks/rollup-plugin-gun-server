@@ -30,3 +30,5 @@ export default {
 # How it works
 It spins up a gun server for local testing. It grabs gun by using require('gun/gun') so it doesn't provide any persistence.
 Not having persistence during development with Gun is important because otherwise deleting data is hard.
+
+The server will be available at 'ws://localhost:{port}/gun'.
