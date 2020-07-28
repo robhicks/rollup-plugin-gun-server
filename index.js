@@ -1,5 +1,7 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 const http = require('http');
 const Gun = require('gun');
 
@@ -18,4 +20,4 @@ function gunServer(options = {}) {
   };
 }
 
-module.exports = gunServer;
+exports.gunServer = gunServer;

@@ -1,7 +1,7 @@
 const http = require('http');
 const Gun = require('gun');
 
-export default function gunServer(options = {}) {
+export function gunServer(options = {}) {
   const params = { port: options.port || 4000 };
   const httpServer = http.createServer();
   httpServer.listen(params.port);

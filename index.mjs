@@ -16,4 +16,4 @@ function gunServer(options = {}) {
   };
 }
 
-export default gunServer;
+export { gunServer };
